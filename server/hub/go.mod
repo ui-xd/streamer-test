@@ -7,7 +7,6 @@ require (
 	github.com/pion/rtcp v1.2.10
 	github.com/pion/rtp v1.7.13
 	github.com/pion/webrtc/v3 v3.1.53
-	github.com/thinkonmay/thinkshare-daemon v0.0.0-20230209065801-eef21bbbfcb3
 	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.27.1
 )

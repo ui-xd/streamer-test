@@ -15,8 +15,8 @@ import (
 	"github.com/thinkonmay/thinkremote-rtchub/listener/video"
 	"github.com/thinkonmay/thinkremote-rtchub/signalling"
 	"github.com/thinkonmay/thinkremote-rtchub/util/tool"
-	"github.com/thinkonmay/thinkshare-daemon/session/ice"
-	"github.com/thinkonmay/thinkshare-daemon/session/signaling"
+	"github.com/thinkonmay/thinkremote-rtchub/util/config/ice"
+	"github.com/thinkonmay/thinkremote-rtchub/util/config/signaling"
 
 	"github.com/pion/webrtc/v3"
 	"github.com/thinkonmay/thinkremote-rtchub/util/config"

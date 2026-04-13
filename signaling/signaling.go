@@ -9,7 +9,7 @@ import (
 	"github.com/pigeatgarlic/signaling/protocol"
 	"github.com/pigeatgarlic/signaling/validator"
 	"github.com/pigeatgarlic/signaling/websocket"
-	"github.com/pigeatgarlic/webrtc-proxy/signalling/gRPC/packet"
+	"github.com/pigeatgarlic/signaling/packet"
 )
 
 

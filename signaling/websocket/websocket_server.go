@@ -9,7 +9,7 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/pigeatgarlic/signaling/protocol"
-	"github.com/pigeatgarlic/webrtc-proxy/signalling/gRPC/packet"
+	"github.com/pigeatgarlic/signaling/packet"
 )
 
 var wsserver = WebSocketServer{}

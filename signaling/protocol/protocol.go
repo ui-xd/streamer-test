@@ -1,6 +1,6 @@
 package protocol 
 
-import "github.com/pigeatgarlic/webrtc-proxy/signalling/gRPC/packet"
+import "github.com/pigeatgarlic/signaling/packet"
 
 type Tenant interface {
 	Send(*packet.UserResponse)

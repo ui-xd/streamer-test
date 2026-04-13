@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/pigeatgarlic/signaling/protocol"
-	"github.com/pigeatgarlic/webrtc-proxy/signalling/gRPC/packet"
+	"github.com/pigeatgarlic/signaling/packet"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

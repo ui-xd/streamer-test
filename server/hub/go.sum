@@ -148,10 +148,6 @@ github.com/stretchr/testify v1.7.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO+kdMU+MU=
 github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKsk=
 github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
-github.com/thinkonmay/thinkshare-daemon v0.0.0-20230208182636-163574221976 h1:yg93AbA0MMqhRRnjfWyZGaGbaiPJHvaBTs1SvbLA/HU=
-github.com/thinkonmay/thinkshare-daemon v0.0.0-20230208182636-163574221976/go.mod h1:+uf6oWDxQWX3y1XAVuRmnjI3Xf2b7Y5Q785UKUBjPgY=
-github.com/thinkonmay/thinkshare-daemon v0.0.0-20230209065801-eef21bbbfcb3 h1:V837+rSVu/FNhNFW0ulrMHVi8kS0Svd82KkCCZarbmc=
-github.com/thinkonmay/thinkshare-daemon v0.0.0-20230209065801-eef21bbbfcb3/go.mod h1:+uf6oWDxQWX3y1XAVuRmnjI3Xf2b7Y5Q785UKUBjPgY=
 github.com/tklauser/go-sysconf v0.3.11 h1:89WgdJhk5SNwJfu+GKyYveZ4IaJ7xAkecBo+KdJV0CM=
 github.com/tklauser/go-sysconf v0.3.11/go.mod h1:GqXfhXY3kiPa0nAXPDIQIWzJbMCB7AmcWpGR8lSZfqI=
 github.com/tklauser/numcpus v0.6.0 h1:kebhY2Qt+3U6RNK7UqpYNA+tJ23IBEGKkB7JQBfDYms=
