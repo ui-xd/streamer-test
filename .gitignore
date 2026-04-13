@@ -1,1 +1,8 @@
-respawn-key.pem
+*.pem
+*.exe
+artifact/
+package/
+node_modules/
+.next/
+bin/
+obj/

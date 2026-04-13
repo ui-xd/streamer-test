@@ -1,20 +1,15 @@
-# Build script for minimal cloud gaming setup (no daemon needed)
-# Builds: validator, signaling, hub, hid
+# Build script for cloud gaming setup
+# Prerequisites: GStreamer 1.22.0, Go 1.20+, .NET 7, Node.js
 
 $env:Path += ';C:\gstreamer\1.22.0\msvc_x86_64\bin'
 $env:PKG_CONFIG_PATH = "C:\gstreamer\1.22.0\msvc_x86_64\lib\pkgconfig"
 
 git submodule update --init --recursive
 
-mkdir -Force artifact
-mkdir -Force package\validator
-mkdir -Force package\signaling
-mkdir -Force package\hub\bin
-mkdir -Force package\hid
-
-# Download GStreamer libs for hub
-Invoke-WebRequest -Uri "https://github.com/thinkonmay/thinkremote-rtchub/releases/download/asset-gstreamer-1.22.0/lib.zip" -OutFile artifact/lib.zip
-Expand-Archive artifact/lib.zip -DestinationPath package/hub -Force
+mkdir -Force package\validator | Out-Null
+mkdir -Force package\signaling | Out-Null
+mkdir -Force package\hub\bin | Out-Null
+mkdir -Force package\hid | Out-Null
 
 go clean --cache
 
@@ -47,4 +42,4 @@ dotnet build . --output "bin" --self-contained true --runtime win-x64
 Set-Location ..\..
 robocopy .\server\hid\bin package\hid
 
-Write-Host "Build complete! Run script\launch-simple.ps1 to start." -ForegroundColor Green
+Write-Host "Build complete! Run .\script\launch.ps1 to start." -ForegroundColor Green
